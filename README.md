@@ -7,7 +7,6 @@
 |ライブラリ名|プロジェクトキー|
 |:-|:-|
 |OAuth1|Mb2Vpd5nfD3Pz-_a-39Q4VfxhMjh3Sh48|
-|TwitterWebService|MFE2ytR_vQqYfZ9VodecRE0qO0XQ_ydfb|
 
 ### スプレッドシートとCS/CKの書き換え
 最大スコアのデータはスプレッドシートで管理するようにしているので`getKVBSheet()`関数内の`SpreadsheetApp.openById('xxxxxx')`を使いたいスプレッドシートのIDに変更しましょう．
