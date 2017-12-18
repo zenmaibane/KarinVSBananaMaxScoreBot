@@ -48,8 +48,8 @@ function getTwitterService(){
   .setAccessTokenUrl("https://api.twitter.com/oauth/access_token")
   .setRequestTokenUrl("https://api.twitter.com/oauth/request_token")
   .setAuthorizationUrl("https://api.twitter.com/oauth/authorize")
-  .setConsumerKey("xxxxxxxx")
-  .setConsumerSecret("xxxxx")
+  .setConsumerKey(ScriptProperties.getProperty("CONSUMER_KEY"))
+  .setConsumerSecret(ScriptProperties.getProperty("CONSUMER_SECRET"))
   .setCallbackFunction("authCallback")
   .setPropertyStore(PropertiesService.getScriptProperties());
 }
